@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.FormularioAtividadeActivity">
+
+    <EditText
+        android:id="@+id/editTextNomeAtividade"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Nome da Atividade"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDiaSemana"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Dias da Semana"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextHoraInicio"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Hora de Inicio"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextHoraTermino"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Hora do Termino"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextRepete"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Essa é uma atividade recorrente ?"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Salvar" />
+
+</LinearLayout>
